@@ -28,6 +28,6 @@
                     <&pro_micro 14 GPIO_ACTIVE_HIGH>;  // c3 14
 
         row-gpios = <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  // r0 6
-                    <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // r1 7
+                    <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  // r1 7
     };
 };
