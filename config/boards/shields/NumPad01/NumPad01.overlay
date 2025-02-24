@@ -32,16 +32,20 @@
     };
 
     encoder0: encoder0 {
-        compatible = "zmk,gpio-encoder";
+        compatible = "alps,ec11";
         gpios = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,  // Encoder A
                 <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;  // Encoder B
         steps = <1>;
-        resolution = <24>;
-        label = "ENCODER_0";
+        status = "disabled";
     };
 
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&encoder0>;
+        triggers-per-rotation = <24>;
+    };
+
+    &encoder0 {
+        status = "okay";
     };
 };
