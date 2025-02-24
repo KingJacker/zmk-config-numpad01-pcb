@@ -36,16 +36,12 @@
         gpios = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,  // Encoder A
                 <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;  // Encoder B
         steps = <1>;
-        status = "disabled";
+        status = "okay";
     };
 
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&encoder0>;
         triggers-per-rotation = <24>;
-    };
-
-    &encoder0 {
-        status = "okay";
     };
 };
