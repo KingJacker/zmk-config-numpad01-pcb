@@ -30,4 +30,18 @@
         row-gpios = <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  // r0 6
                     <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  // r1 7
     };
+
+    encoder0: encoder0 {
+        compatible = "zmk,gpio-encoder";
+        gpios = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,  // Encoder A
+                <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;  // Encoder B
+        steps = <1>;
+        resolution = <24>;
+        label = "ENCODER_0";
+    };
+
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&encoder0>;
+    };
 };
