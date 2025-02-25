@@ -23,7 +23,7 @@
 
         bt_layer {
             bindings = <
-                &none              &out OUT_USB   &out OUT_BLE    &none
+                &none              &out OUT_USB   &out OUT_BLE    &bootloader
                 &kp C_VOLUME_DOWN  &bt BT_CLR     &bt BT_SEL 1    &bt BT_SEL 2
             >;
         };
