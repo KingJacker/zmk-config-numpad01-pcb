@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NiceNano")(type "KiCad")(uri "${KEYBOARD}/nice-nano-kicad-master")(options "")(descr ""))
+  (lib (name "Keyboard-Diode")(type "KiCad")(uri "${KEYBOARD}/LIB_BAT54,215/BAT54,215/KiCad")(options "")(descr ""))
+  (lib (name "reset-switch")(type "KiCad")(uri "${KEYBOARD}/LIB_MSLPT5252AL4TR/MSLPT5252AL4TR/KiCad")(options "")(descr "")(disabled))
+  (lib (name "Reset")(type "KiCad")(uri "${KEYBOARD}/LIB_PTS526SM15SMTR2_LFS/PTS526SM15SMTR2_LFS/KiCad")(options "")(descr ""))
+  (lib (name "NiceNanoPad")(type "KiCad")(uri "${KIPRJMOD}/NiceNanoPad.pretty")(options "")(descr ""))
+)

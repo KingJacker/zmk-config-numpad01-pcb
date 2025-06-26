@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NiceNanoV2")(type "Legacy")(uri "${KEYBOARD}/nice-nano-kicad-master/nice_nano.lib")(options "")(descr ""))
+  (lib (name "Reset_switch")(type "Legacy")(uri "${KEYBOARD}/LIB_PHAP3344BR/PHAP3344BR/KiCad/PHAP3344BR.lib")(options "")(descr ""))
+  (lib (name "Nice_Nano_Pads")(type "KiCad")(uri "${KIPRJMOD}/Nice_Nano_Pads.kicad_sym")(options "")(descr ""))
+)

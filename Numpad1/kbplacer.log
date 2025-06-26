@@ -1,0 +1,142 @@
+[kbplacer_plugin_action.py:65]: Plugin version: 0.12
+[kbplacer_plugin_action.py:66]: Python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+[kbplacer_plugin_action.py:67]: KiCad version: 7.0.11 with 4.2.2a1 osx-cocoa (phoenix) wxWidgets 3.2.4
+[kbplacer_dialog.py:585]: Language: en
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "/Users/kingjacker/Downloads/keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:361]: Set key 1U distance: 19050000/19050000
+[key_placer.py:123]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'Net-(D4-A)', 'COL3'}): ['SW4'], frozenset({'Net-(D3-A)', 'COL2'}): ['SW3'], frozenset({'COL1', 'Net-(D2-A)'}): ['SW2'], frozenset({'COL0', 'Net-(D1-A)'}): ['SW1'], frozenset({'COL2', 'Net-(D18-A)'}): ['SW18'], frozenset({'Net-(D15-A)', 'COL3'}): ['SW15'], frozenset({'COL1', 'Net-(D6-A)'}): ['SW6'], frozenset({'Net-(D13-A)', 'COL1'}): ['SW13'], frozenset({'COL3', 'Net-(D8-A)'}): ['SW8'], frozenset({'Net-(D16-A)', 'COL0'}): ['SW16'], frozenset({'Net-(D19-A)', 'COL0'}): ['SW19'], frozenset({'COL0', 'Net-(D12-A)'}): ['SW12'], frozenset({'COL2', 'Net-(D14-A)'}): ['SW14'], frozenset({'COL1', 'Net-(D20-A)'}): ['SW20'], frozenset({'COL1', 'Net-(D17-A)'}): ['SW17'], frozenset({'COL1', 'Net-(D10-A)'}): ['SW10'], frozenset({'COL2', 'Net-(D7-A)'}): ['SW7'], frozenset({'Net-(D11-A)', 'COL2'}): ['SW11'], frozenset({'COL2', 'Net-(D21-A)'}): ['SW21'], frozenset({'Net-(D22-A)', 'COL3'}): ['SW22'], frozenset({'Net-(D5-A)', 'COL0'}): ['SW5'], frozenset({'COL0', 'Net-(D9-A)'}): ['SW9']})
+[key_placer.py:127]: Diodes by switch: {}
+[kle_serial.py:897]: User layout: [['Esc', 'Tab', '=', 'Backspace'], ['Num Lock', '/', '*', '-'], ['7', '8', '9', {'h': 2}, '+'], ['4', '5', '6'], ['1', '2', '3', {'h': 2}, 'Enter'], [{'w': 2}, '0', '.']]
+[key_placer.py:661]: Layout offset: (28575000, 28575000)
+[board_modifier.py:85]: Setting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:85]: Setting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:85]: Setting SW5 footprint position: (38100000, 57150000)
+[board_modifier.py:85]: Setting SW6 footprint position: (57150000, 57150000)
+[board_modifier.py:85]: Setting SW7 footprint position: (76200000, 57150000)
+[board_modifier.py:85]: Setting SW8 footprint position: (95250000, 57150000)
+[board_modifier.py:85]: Setting SW9 footprint position: (38100000, 76200000)
+[board_modifier.py:85]: Setting SW10 footprint position: (57150000, 76200000)
+[board_modifier.py:85]: Setting SW11 footprint position: (76200000, 76200000)
+[board_modifier.py:85]: Setting SW12 footprint position: (95250000, 85725000)
+[board_modifier.py:85]: Setting SW13 footprint position: (38100000, 95250000)
+[board_modifier.py:85]: Setting SW14 footprint position: (57150000, 95250000)
+[board_modifier.py:85]: Setting SW15 footprint position: (76200000, 95250000)
+[board_modifier.py:85]: Setting SW16 footprint position: (38100000, 114300000)
+[board_modifier.py:85]: Setting SW17 footprint position: (57150000, 114300000)
+[board_modifier.py:85]: Setting SW18 footprint position: (76200000, 114300000)
+[board_modifier.py:85]: Setting SW19 footprint position: (95250000, 123825000)
+[board_modifier.py:85]: Setting SW20 footprint position: (47625000, 133350000)
+[board_modifier.py:85]: Setting SW21 footprint position: (76200000, 133350000)
+[key_placer.py:996]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.DEFAULT: 'Default'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
+[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:98]: Getting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:98]: Getting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:98]: Getting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:98]: Getting SW5 footprint position: (38100000, 57150000)
+[board_modifier.py:98]: Getting SW6 footprint position: (57150000, 57150000)
+[board_modifier.py:98]: Getting SW7 footprint position: (76200000, 57150000)
+[board_modifier.py:98]: Getting SW8 footprint position: (95250000, 57150000)
+[board_modifier.py:98]: Getting SW9 footprint position: (38100000, 76200000)
+[board_modifier.py:98]: Getting SW10 footprint position: (57150000, 76200000)
+[board_modifier.py:98]: Getting SW11 footprint position: (76200000, 76200000)
+[board_modifier.py:98]: Getting SW12 footprint position: (95250000, 85725000)
+[board_modifier.py:98]: Getting SW13 footprint position: (38100000, 95250000)
+[board_modifier.py:98]: Getting SW14 footprint position: (57150000, 95250000)
+[board_modifier.py:98]: Getting SW15 footprint position: (76200000, 95250000)
+[board_modifier.py:98]: Getting SW16 footprint position: (38100000, 114300000)
+[board_modifier.py:98]: Getting SW17 footprint position: (57150000, 114300000)
+[board_modifier.py:98]: Getting SW18 footprint position: (76200000, 114300000)
+[board_modifier.py:98]: Getting SW19 footprint position: (95250000, 123825000)
+[board_modifier.py:98]: Getting SW20 footprint position: (47625000, 133350000)
+[board_modifier.py:98]: Getting SW21 footprint position: (76200000, 133350000)
+[board_modifier.py:98]: Getting SW22 footprint position: (139800000, 135500000)
+[key_placer.py:774]: Placing additional elements for SW4
+[board_modifier.py:98]: Getting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:75]: Searching for optional ST4 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW3
+[board_modifier.py:98]: Getting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:75]: Searching for optional ST3 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW2
+[board_modifier.py:98]: Getting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:75]: Searching for optional ST2 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW1
+[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:75]: Searching for optional ST1 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW18
+[board_modifier.py:98]: Getting SW18 footprint position: (76200000, 114300000)
+[board_modifier.py:75]: Searching for optional ST18 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW15
+[board_modifier.py:98]: Getting SW15 footprint position: (76200000, 95250000)
+[board_modifier.py:75]: Searching for optional ST15 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW6
+[board_modifier.py:98]: Getting SW6 footprint position: (57150000, 57150000)
+[board_modifier.py:75]: Searching for optional ST6 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW13
+[board_modifier.py:98]: Getting SW13 footprint position: (38100000, 95250000)
+[board_modifier.py:75]: Searching for optional ST13 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW8
+[board_modifier.py:98]: Getting SW8 footprint position: (95250000, 57150000)
+[board_modifier.py:75]: Searching for optional ST8 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW16
+[board_modifier.py:98]: Getting SW16 footprint position: (38100000, 114300000)
+[board_modifier.py:75]: Searching for optional ST16 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW19
+[board_modifier.py:98]: Getting SW19 footprint position: (95250000, 123825000)
+[board_modifier.py:75]: Searching for optional ST19 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW12
+[board_modifier.py:98]: Getting SW12 footprint position: (95250000, 85725000)
+[board_modifier.py:75]: Searching for optional ST12 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW14
+[board_modifier.py:98]: Getting SW14 footprint position: (57150000, 95250000)
+[board_modifier.py:75]: Searching for optional ST14 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW20
+[board_modifier.py:98]: Getting SW20 footprint position: (47625000, 133350000)
+[board_modifier.py:75]: Searching for optional ST20 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW17
+[board_modifier.py:98]: Getting SW17 footprint position: (57150000, 114300000)
+[board_modifier.py:75]: Searching for optional ST17 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW10
+[board_modifier.py:98]: Getting SW10 footprint position: (57150000, 76200000)
+[board_modifier.py:75]: Searching for optional ST10 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW7
+[board_modifier.py:98]: Getting SW7 footprint position: (76200000, 57150000)
+[board_modifier.py:75]: Searching for optional ST7 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW11
+[board_modifier.py:98]: Getting SW11 footprint position: (76200000, 76200000)
+[board_modifier.py:75]: Searching for optional ST11 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW21
+[board_modifier.py:98]: Getting SW21 footprint position: (76200000, 133350000)
+[board_modifier.py:75]: Searching for optional ST21 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW22
+[board_modifier.py:98]: Getting SW22 footprint position: (139800000, 135500000)
+[board_modifier.py:75]: Searching for optional ST22 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW5
+[board_modifier.py:98]: Getting SW5 footprint position: (38100000, 57150000)
+[board_modifier.py:75]: Searching for optional ST5 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for SW9
+[board_modifier.py:98]: Getting SW9 footprint position: (38100000, 76200000)
+[board_modifier.py:75]: Searching for optional ST9 footprint in /Users/kingjacker/Documents/Electronics Projekts/Keyboards/Numpad1/Numpad1.kicad_pcb
+[board_modifier.py:80]: Footprint not found
