@@ -25,7 +25,8 @@
             label = "Default";
         };
 
-        bt_layer {
+        fn_layer {
+            display-name = "fn_layer";
             bindings = <
                 &none          &none          &none           &out OUT_USB
                 &none          &none          &none           &out OUT_BLE
@@ -34,7 +35,7 @@
                 &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2    &bt BT_SEL 3
                 &bt BT_SEL 4   &none          &bt BT_CLR      &none
             >;
-            label = "Bluetooth";
+            label = "fn_layer";
         };
     };
 };
